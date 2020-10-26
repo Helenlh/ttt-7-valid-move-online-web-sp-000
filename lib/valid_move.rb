@@ -7,7 +7,6 @@ if board[index] == " " || board[index] == "" || board[index] == nil
   elsif board[index] = "X" || "O"
   return  false 
   puts "That position is already taken"
- end   
-end  
-end 
+  end   
+  end  
 end 
