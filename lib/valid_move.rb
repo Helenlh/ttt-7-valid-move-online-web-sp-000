@@ -4,3 +4,9 @@ if index !between? (0,8)
   puts "this is an invalid mmove"
 
 # re-define your #position_taken? method here, so that you can use it in the #valid_move? method above.
+ if board[index] == " " || board[index] == "" || board[index] == nil 
+    return false 
+  elsif board[index] = "X" || "O"
+  return true 
+ end   
+end  
