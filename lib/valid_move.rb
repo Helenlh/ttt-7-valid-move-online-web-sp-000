@@ -8,5 +8,6 @@ if index !between? (0,8)
     return false 
   elsif board[index] = "X" || "O"
   return true 
+  puts "That position is already taken"
  end   
 end  
