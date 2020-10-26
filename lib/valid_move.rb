@@ -11,3 +11,4 @@ else puts "this is an invalid mmove"
   puts "That position is already taken"
  end   
 end  
+end 
