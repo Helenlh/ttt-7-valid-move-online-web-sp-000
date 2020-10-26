@@ -1,10 +1,12 @@
 def valid_move(board, index)
 if index between? (0,8)
+  return true 
+  
 else puts "this is an invalid mmove"
 if board[index] == " " || board[index] == "" || board[index] == nil 
-    return false 
+    return true 
   elsif board[index] = "X" || "O"
-  return true 
+  return  false 
   puts "That position is already taken"
  end   
 end  
